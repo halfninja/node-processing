@@ -7,3 +7,5 @@ Anyway, if you do `node app.js` then that will read the contents of `sketch.pde`
 Various methods will fail, like trying to load an image, or pretty much anything other than drawing shapes. It would probably take a bit of a rewrite of Processing.js to make it work properly outside of a browser. You can probably do all the stuff you want accessing the `canvas` module natively, really.
 
 The `canvas` module uses Cairo, so on Windows or Mac it probably won't work straight away unless you install that.
+
+![Sample output](https://github.com/halfninja/node-processing/blob/master/output.png?raw=true)
